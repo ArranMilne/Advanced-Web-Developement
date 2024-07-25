@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>My Account</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cssFiles/formPages.css') }}">
+	</head>
+	<body>
+	<!-- linking to where the naviagtion bar html code is located so that it can be included at the top of this page-->
+
+	{% include 'htmlTemplates/navigationBar.html' %}
+
+
+	<div class="formBox">
+	 
+        <h2>My Account</h2>
+
+	<!--Creating a form which shows the users current account details and allows the user to update these details. This is a 'POST' request so will
+	    send the information entered in this form to the .py file for it to use.-->
+        <form action="/accountInfo/" method="post" name="myAccountForm">
+ 
+
+         	<!--error message will be displayed if the updated username entered is one linked to another account.-->
+        	{% if errorMessage %}
+                	<p class="errorMessage">{{ errorMessage }}</p>
+        	{% endif %}
+
+           
+            <!--creating the label and textbox for the username field, allowing the user to change their username-->
+            <label for="username">Username:</label>
+            <input type="text" name="username" value="{{ current_user.username }}"/>
+            <br>
+
+	    <!--creating the label and textbox for the password field, allowing the user to change their password.-->
+            <label for="password">Password:</label>
+	    <input type="text" name="password" value="{{ current_user.password }}"/>
+            <br>             
+
+	    <!--creating the label and textbox for the study field, filling it with the study field of the current user.-->
+            <label for="studyField">Study Field:</label>
+            <input type="text" name="studyField" value="{{ current_user.studyField }}"/>
+            <br>
+	    <br>
+
+
+           <!--button to submit this form and run the code in the .py file-->  
+            <input type="submit" name="update" value="Update Account"/>
+        </form>
+
+
+
+           <br>
+	   <br>
+
+
+	<!--the buttons for logging out the user and deleting their account. Will send a POST request to the .py file to run the logout code. All three of these pages form actions are seperated for clarit because they all act differently.-->
+        <form action="/logoutAccount/" method="post">
+           <input type="submit" id="logoutAccountButton" value="Log Out">
+        </form>
+
+
+	 <form action="/deleteAccount/" method="post">
+           <input type="submit" id="deleteAccountButton" value="Delete Account">
+        </form>
+
+
+
+    </div>
+</body>
+</html>

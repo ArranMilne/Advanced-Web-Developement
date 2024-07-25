@@ -1,0 +1,59 @@
+<html>
+	<head>
+    		<title>Login</title>
+    <!--Linking to the external CSS file-->
+    		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cssFiles/formPages.css') }}">
+	</head>
+	<body>
+
+
+        <div class="websiteTitle">	
+	<h1>Study Buddy</h1>
+	</div>
+
+
+
+	<div class="formBox">
+    	<h2>Login</h2>
+
+<!--form for the user to login to an account. It is a POST request so will send the information entered to the .py file for it to use. Because it is the first page of the website, the form URL is only '/'.-->
+<form action="/login" method="post" name="loginForm">
+
+	<!--error message will be displayed in between the 'sign up' title and the text boxes. The value will change depending on whether the username is wrong or password is wrong. This gives the user relevant information. -->
+	{% if errorMessage %}
+		<p class="errorMessage">{{ errorMessage }}</p>
+	{% endif %}
+
+
+    <!--creating the label and textbox for the user to enter their username. The 'required' keyword stops the form from being submitted
+	without a username being entered. This is because a username is needed to find the user in the database-->
+    <label for="username">Username:</label>
+    <input type="text" name="username" required/>
+    <br>	
+   
+    <!--creating the label and textbox for the password to be entered. It is also set to required-->
+    <label for="password">Password:</label>
+    <input type="password" name="password" required/>
+    <br>
+    <br>
+
+
+
+    <input type="submit" name="submit" value="Log In"/>
+
+
+
+   </form>
+
+
+         
+
+
+    <!--if the user doesn't have an account, they can click this link to be taken to the signup page-->	
+    <p>Don't have an account? <a href="/signup/">Sign Up</a></p>
+   
+
+    </div>
+</body>
+</html>
+

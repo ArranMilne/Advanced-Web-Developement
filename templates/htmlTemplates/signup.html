@@ -1,0 +1,70 @@
+<html>
+	<head>
+    		<title>Sign Up</title>
+    		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cssFiles/formPages.css') }}">
+	</head>
+	<body>
+
+        <div class="websiteTitle">
+   	<h1>Study Buddy</h1>
+        </div>
+
+        <div class="formBox">
+        <h2>Sign Up</h2>
+
+
+<!--form for the user to enter their login details. It is a POST request so will send the 
+information entered in this form to the .py file for it to use--> 
+<form action="/signup/" method="post" name="signupForm">
+
+
+        <!--error message wil be displayed under the title but above the labels if there is an error with account creation.-->
+	{% if errorMessage %}
+	<p class ="errorMessage">{{ errorMessage }}</p>
+	{% endif %}
+
+
+
+
+	<!--creating the label and textbox for the user to enter their username, it is set to required because the user has to
+	    provide a username to create an account so that flashcards can be tied to it.-->
+        <label for="username">Username:</label>
+        <input type="text" name="username" required/>
+        <br>
+
+
+	<!--creating the label and textbox for the user to enter their password, it is also set to required-->
+        <label for="password">Password:</label>
+        <input type="password" name="password" required/>
+        <br>
+
+	<!--creating the label and textbox for the user to enter their field of study, also required-->
+        <label for="studyField">Field of Study:</label>
+        <input type="text" name="studyField" required/>
+        <br>
+
+	<!--creating a drop down list for the year of study atribute.-->
+	<label for="studyYear">Year of Study:</label>
+        <select name="studyYear" required>
+	    <option value="1"> Primary School (Ages 5-12) </option>
+            <option value="2"> Highschool (Ages 12-18) </option>
+            <option value="3"> College/University (Ages 18-22) </option>
+            <option value="4"> Other </option>
+        </select>
+        <br>
+
+	
+        <input type="submit" name="createAccount" value="Sign Up"/>
+
+    </form>
+
+
+    <!--text to link the user to the login page-->
+    <p>Already have an account? <a href="/">Log In</a></p>
+
+
+
+    </div>
+</body>
+</html>
+

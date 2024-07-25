@@ -1,0 +1,161 @@
+/*This css file is used for all pages which have forms. This promotes code reusability.
+ *
+/*Importing the websites font which is stored in a seperate file called 'Roboto-Black.ttf'*/
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../Roboto-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+p {
+  font-family: 'Roboto-Black';
+}
+
+
+body {
+  background-color: #ADD8E6;
+}
+
+
+
+
+h2 {
+  font-family: 'Roboto-Black';
+}
+
+/*'.formBox' class is used by elements in the 'signup', 'login', 'accountInfo', 'createCard' and 'findBuddy' pages. Promotes code reusability and ensures a consistent design throughout my website*/
+.formBox {
+  margin: 10% auto;
+  margin-top: 100px;
+  text-align: left;
+  width: 300px;
+  padding: 20px;
+}
+
+
+
+
+.formBox label {
+  font-family: 'Roboto-Black';
+  display: block;
+  margin-bottom: 5px;*
+}
+
+
+
+.formBox input {
+  font-family: 'Roboto-Black';
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+
+.formBox select {
+  font-family: 'Roboto-Black';
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+/*code for the error messages across all pages is reused to give the interface a consistent design. Less confusing for the user */
+.errorMessage {
+  font-family: 'Roboto-Black';
+  color: red;
+  text-align: center;
+}
+
+
+textarea {
+  font-family: 'Roboto-Black';
+  width: 200px;
+  height: 100px;
+}
+
+
+
+
+
+/*styling the class called flashcard. This class is used in my html to style the spaces for the flashcards.
+the 'display: inline' makes the flashcards display directly next to each other and not take up an individual row each.
+A black border is applied to the flashcard to hold the flashcard information*/
+.flashcard {
+    font-family: 'Roboto-Black';
+    overflow: auto;
+    width: 210px;
+    height: 210px;
+
+    border: 5px solid #000000;
+    margin: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+p {
+    font-family: 'Roboto-Black';
+}
+
+
+
+
+
+/*styling for the code on the 'find a buddy' page which contains your own user info.*/
+.yourInfo {
+    font-family: 'Roboto-Black';
+    background-color: #62A9AF;
+    color: white;   
+    box-shadow: 0px 4px 8px black; 
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+	
+
+
+/*styling the code for the website title on the login and signup pages*/
+.websiteTitle {
+    font-family: 'Roboto-Black';
+    background-color: #62A9AF;
+    color: white;
+    box-shadow: 0px 4px 8px black;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/*the 'log out' button is coloured differently to all the other buttons to highlight its differenr behaviour to the user. */
+#logoutAccountButton {
+  background-color: #FFFF00;
+  color: black;
+}
+
+
+/*the 'delete button' is coloured dark red to stand out from all the other buttons and to show the red stopping behaviour.
+ *the buttons text colour is white so that it is visible against the dark background.*/
+#deleteAccountButton {
+  background-color: #8B0000;
+  color: white;
+}
+
+
+
+
+
+
+
+

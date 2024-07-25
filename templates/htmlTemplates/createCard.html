@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Create Flashcard</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cssFiles/formPages.css') }}">
+	</head>
+	<body>
+
+	<!--linking to the navigation bar so that it can be added to the top of this page-->
+	{% include 'htmlTemplates/navigationBar.html' %}
+
+	<br>
+	<br>
+
+ 
+
+    <!--using the same class across multiple pages with similar elements. This is so the elements have a consistent style and code is not repeated for each page. -->	
+    <div class="formBox">
+
+
+    <h2>Create A Flashcard</h2>
+
+    <!--creating the form for the user to fill in to create flash cards. -->
+    <form action="/createCard/" method="post" name="createFlashcardForm">
+
+
+         <!--creating text boxes for the user to input the flashcard question and answer text-->
+   	 <label for="question">Question:</label>
+   	 <textarea name="cardQuestionText"></textarea>
+   	 <br>
+    	 <br>
+
+
+
+    	 <label for="answer">Answer:</label>
+   	 <textarea name="cardAnswerText"></textarea>
+   	 <br>
+    	 <br>
+
+
+
+	 <label for="colour">Text Colour:</label>
+         <input type="color" name="cardTextColour" value="#000000">
+         <br>
+         <br>
+
+
+         <!--this is a colour picker so the user can set the colour for the flashcard. Initially setting the colour to white to keep it plain.-->
+  	 <label for="backgroundColour">Background Colour:</label>
+   	 <input type="color" name="cardBackgroundColour" value="#FFFFFF">
+   	 <br>
+    	 <br>
+
+
+         <!--this is a button which has the 'submit' attribute. This sends the form to the .py file and alerts its 'POST' code,
+        which gets the users inputted info from this form and creates a new flashcard.-->
+    	 <input type="submit" name="submit" value="Create Flashcard"/>
+
+
+    </form>
+  </div>
+</body>
+</html>

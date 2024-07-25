@@ -1,0 +1,131 @@
+<html>
+<head>
+<!--the css for this html file in internal because when I tried using this html file in other html files, the external css file was not loading correctly. -->
+<style>
+
+/*importing the websites font which is stored in a seperate file called 'Roboto-Black.ttf'*/
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('/static/Roboto-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*pushes the naviagtion bar against the edges of the screen so there is no gap*/
+body {
+    margin: 0;
+ }
+
+
+
+h1 {
+    font-family: 'Roboto-Black';
+    float: left;
+    padding-left: 50px;
+}
+
+
+/*pushes the links to the right side of the bar. This puts space between the links and the title*/
+nav {
+    float: right;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+
+}
+
+
+
+/*the css for the links in the navagation bar. The links are dispalyed inline so that they appear next to each other in a row*/
+nav li {
+    font-family: 'Roboto-Black';
+    display: inline-block;
+    padding-top: 25px;
+    margin-left: 70px;
+    position: relative;
+}
+
+
+
+/*styling the space the navagation bar takes up on the webpage. Giving it a light blue background colour. This matches the teal colour for each webpage background. Gives a consistent style*/
+header {
+    background: #A7C7E7;
+    box-shadow: 0px 4px 8px #000000;
+}
+
+
+
+
+/*this ensures that the 'header' displays the 'nav' elements correctly*/
+header::after {
+    content: "";
+    display: table;
+    clear:right;
+}
+
+
+
+
+/*styling all the page navagation links*/
+nav a {
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+/*adding a highlighting line under each 'a' link when it is hovered over. It is given a transition animation at 200ms.*/
+nav a::before {
+    background-color: white;
+    content: "";
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    width: 0px;
+    transition: width ease-in-out 200ms;
+}
+
+
+/*the '100%' means that the underline will cover the whole of the element when the mouse is hoovered
+  over it*/
+nav a:hover::before {
+    width: 100%;
+}
+
+
+
+
+</style>
+</head>
+<body>
+	<header>
+	<!--<h1> tag to create large title text on the navagation bar design, says name of website -->
+        <h1>Study Buddy</h1>
+
+        <nav>
+             <ul>
+                <li><a href="/homepage">Homepage</a></li>
+                <li><a href="/createCard">Create A Flashcard</a></li>
+		<li><a href="/findBuddy">Find a Buddy</a></li>
+                <li><a href="/accountInfo">My Account</a></li>
+             </ul>
+        </nav>
+	</header>
+</body>
+</html>                  
+
+
+
+
+
+
+

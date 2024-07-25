@@ -1,0 +1,62 @@
+<html>
+	<head>
+    		<title>findBuddy</title>
+    		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cssFiles/formPages.css') }}">
+	</head>
+	<body>
+
+    {% include 'htmlTemplates/navigationBar.html' %}
+  
+
+    <div class="formBox">
+    <br>
+    <div class="yourInfo">
+    <h2>Your Information:</h2>
+    <p>Username: {{ current_user.username }}</p>
+    
+    <p>Field of Study: {{ current_user.studyField }}</p>
+    
+    <p>Study Year: {{ current_user.studyYear }}</p>
+    </div>
+    <br>
+    <br>
+
+    <h2>Other users with the same field of study:</h2>
+    
+    </div>
+    <ul>
+
+      {% for flashcard in buddyFlashcards %}
+
+
+        <!--using a div to set the colour of each flashcard to the one stated in the flashcard objects specification. This is received from the flashcard database table -->
+        <div class="flashcard" id="flashcard-{{ flashcard.id }}" style="color: {{ flashcard.textColour }}; background-color: {{ flashcard.backgroundColour }}">
+
+
+
+             <!--getting this specific flashcards question text to appear on the flashcard displayed on the homepage.-->
+             <p>Question: {{ flashcard.question }}</p>
+
+
+             <!--setting the answer text  to be initially hidden, will be shown once the answer button is pressed-->
+             <p class="answerLabel" style="display: none;">
+                Answer: {{ flashcard.answer }}</p>
+
+
+             <button class="showAnswerButton">Show Answer</button>
+
+
+        </div>
+
+        {% endfor %}
+
+</ul>
+  </div>
+
+
+   <script src="{{ url_for('static', filename='jsFiles/findBuddy.js') }}"></script>
+
+
+
+</body>
+</html>

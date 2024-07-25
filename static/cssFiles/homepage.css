@@ -1,0 +1,51 @@
+/*importing the websites font which is stored in a seperate file called 'Roboto-Black.ttf'*/
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*setting the background colour of the page to a light green. This is not an intrusive colour and contrasts with the flashcardw black borders so they stand out. This light blue background colour also contrasts the flashcard colours so that they stand out.*/
+body {
+    background-color: #ADD8E6;
+}
+
+/*styling the class called flashcard. This class is used in my html to style the spaces for the flashcards.
+the 'display: inline' makes the flashcards display directly next to each other and not take up an individual row each.
+A black border is applied to the flashcard to hold the flashcard information*/
+.flashcard {
+    font-family: 'Roboto-Black';
+    overflow: auto;
+    width: 210px;
+    height: 210px;
+
+    border: 5px solid #000000;
+    margin: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+p {
+    font-family: 'Roboto-Black';
+}
+
+
+/*code to style the button which deletes flashcards. Given a red background to highlight its stop behaviour. Given an 'X' icon so that it matches a websites 'X' close button.*/
+.deleteFlashcardButton {
+    font-family: 'Roboto-Black';
+    background-color: #FF0000;
+    float: right;
+}
+
+
+/*code to style the button on flashcards. Giving it the webistes consistent font and a basic grey colour which stands out from the custom flashcard colour*/
+.showAnswerButton {
+    font-family: 'Roboto-Black';
+    color: #808080;
+}
+
+
+
+

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/40624421/migrations/versions/__pycache__'
+let g:netrw_dirhist_2='/home/40624421/hello'
+let g:netrw_dirhist_1='/home/40624421/migrations/__pycache__'
+let g:netrw_dirhist_0='/home/40624421/static/js'
+let g:netrw_dirhist_9='/home/40624421/templates/htmlTemplates'
+let g:netrw_dirhist_8='/home/40624421/static/bootstrap-5.3.2-dist'
+let g:netrw_dirhist_7='/home/40624421/static/javascript_files'
+let g:netrw_dirhist_6='/home/40624421/static/css_files'
+let g:netrw_dirhist_5='/home/40624421/templates/html_templates'
+let g:netrw_dirhist_4='/home/40624421/static'
