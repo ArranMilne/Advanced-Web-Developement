@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1721892061,,"wq"
+|2,0,1721913510,,"wq"
 :q!
-|2,0,1721891929,,"q!"
+|2,0,1721912176,,"q!"
 :WQ
 |2,0,1721891622,,"WQ"
 :wq!
@@ -132,320 +132,236 @@ $
 |3,0,36,0,1,0,1720813046,"cards = card.query.filter_by(user_id=user.id).all()"
 
 # File marks:
-'0  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,48,1,0,1721892061,"~/migrations/__pycache__/env.cpython-38.pyc"
-'1  17  57  ~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc
-|4,49,17,57,1721892004,"~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc"
-'2  1  0  ~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc
-|4,50,1,0,1721891972,"~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc"
-'3  8  0  ~/migrations/versions/__pycache__
-|4,51,8,0,1721891929,"~/migrations/versions/__pycache__"
-'4  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,52,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
-'5  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,53,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
-'6  18  0  ~/migrations/versions/7bebea553171_.py
-|4,54,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
-'7  1  0  ~/__pycache__/acc.cpython-38.pyc
-|4,55,1,0,1721891707,"~/__pycache__/acc.cpython-38.pyc"
-'8  1  0  ~/migrations/script.py.mako
-|4,56,1,0,1721891661,"~/migrations/script.py.mako"
-'9  114  3  ~/migrations/env.py
-|4,57,114,3,1721891644,"~/migrations/env.py"
+'0  57  6  ~/acc.py
+|4,48,57,6,1721913510,"~/acc.py"
+'1  347  0  ~/acc.py
+|4,49,347,0,1721912921,"~/acc.py"
+'2  347  0  ~/acc.py
+|4,50,347,0,1721912921,"~/acc.py"
+'3  18  3  ~/templates/htmlTemplates/findBuddy.html
+|4,51,18,3,1721912856,"~/templates/htmlTemplates/findBuddy.html"
+'4  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,52,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+'5  21  0  ~/static/cssFiles/formPages.css
+|4,53,21,0,1721912185,"~/static/cssFiles/formPages.css"
+'6  18  26  ~/static/cssFiles/formPages.css
+|4,54,18,26,1721912176,"~/static/cssFiles/formPages.css"
+'7  18  26  ~/static/cssFiles/formPages.css
+|4,55,18,26,1721912176,"~/static/cssFiles/formPages.css"
+'8  24  0  ~/static/cssFiles/formPages.css
+|4,56,24,0,1721912140,"~/static/cssFiles/formPages.css"
+'9  1  0  ~/static/formPages.css
+|4,57,1,0,1721912065,"~/static/formPages.css"
 
 # Jumplist (newest first):
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721892061,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  17  57  ~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc
-|4,39,17,57,1721892004,"~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc"
--'  17  57  ~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc
-|4,39,17,57,1721892004,"~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc"
--'  1  0  ~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc
-|4,39,1,0,1721891972,"~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc"
--'  1  0  ~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc
-|4,39,1,0,1721891972,"~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc"
--'  1  0  ~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc
-|4,39,1,0,1721891972,"~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc"
--'  1  0  ~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc
-|4,39,1,0,1721891972,"~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  8  0  ~/migrations/versions/__pycache__
-|4,39,8,0,1721891929,"~/migrations/versions/__pycache__"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/__pycache__/env.cpython-38.pyc
-|4,39,1,0,1721891896,"~/migrations/__pycache__/env.cpython-38.pyc"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  1  0  ~/migrations/versions/a680d0cd4a56_changing.py
-|4,39,1,0,1721891843,"~/migrations/versions/a680d0cd4a56_changing.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
--'  18  0  ~/migrations/versions/7bebea553171_.py
-|4,39,18,0,1721891782,"~/migrations/versions/7bebea553171_.py"
+-'  57  6  ~/acc.py
+|4,39,57,6,1721913510,"~/acc.py"
+-'  347  0  ~/acc.py
+|4,39,347,0,1721913324,"~/acc.py"
+-'  347  0  ~/acc.py
+|4,39,347,0,1721912921,"~/acc.py"
+-'  21  49  ~/acc.py
+|4,39,21,49,1721912899,"~/acc.py"
+-'  21  49  ~/acc.py
+|4,39,21,49,1721912899,"~/acc.py"
+-'  18  3  ~/templates/htmlTemplates/findBuddy.html
+|4,39,18,3,1721912856,"~/templates/htmlTemplates/findBuddy.html"
+-'  18  3  ~/templates/htmlTemplates/findBuddy.html
+|4,39,18,3,1721912856,"~/templates/htmlTemplates/findBuddy.html"
+-'  18  3  ~/templates/htmlTemplates/findBuddy.html
+|4,39,18,3,1721912856,"~/templates/htmlTemplates/findBuddy.html"
+-'  18  3  ~/templates/htmlTemplates/findBuddy.html
+|4,39,18,3,1721912856,"~/templates/htmlTemplates/findBuddy.html"
+-'  31  167  ~/templates/htmlTemplates/findBuddy.html
+|4,39,31,167,1721912843,"~/templates/htmlTemplates/findBuddy.html"
+-'  31  167  ~/templates/htmlTemplates/findBuddy.html
+|4,39,31,167,1721912843,"~/templates/htmlTemplates/findBuddy.html"
+-'  31  167  ~/templates/htmlTemplates/findBuddy.html
+|4,39,31,167,1721912843,"~/templates/htmlTemplates/findBuddy.html"
+-'  31  167  ~/templates/htmlTemplates/findBuddy.html
+|4,39,31,167,1721912843,"~/templates/htmlTemplates/findBuddy.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  24  16  ~/templates/htmlTemplates/navigationBar.html
+|4,39,24,16,1721912220,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  124  6  ~/templates/htmlTemplates/navigationBar.html
+|4,39,124,6,1721912204,"~/templates/htmlTemplates/navigationBar.html"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  21  0  ~/static/cssFiles/formPages.css
+|4,39,21,0,1721912185,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912177,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  18  26  ~/static/cssFiles/formPages.css
+|4,39,18,26,1721912176,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  24  0  ~/static/cssFiles/formPages.css
+|4,39,24,0,1721912140,"~/static/cssFiles/formPages.css"
+-'  150  0  ~/static/cssFiles/formPages.css
+|4,39,150,0,1721912077,"~/static/cssFiles/formPages.css"
+-'  156  0  ~/static/cssFiles/formPages.css
+|4,39,156,0,1721912077,"~/static/cssFiles/formPages.css"
+-'  153  0  ~/static/cssFiles/formPages.css
+|4,39,153,0,1721912077,"~/static/cssFiles/formPages.css"
+-'  159  0  ~/static/cssFiles/formPages.css
+|4,39,159,0,1721912077,"~/static/cssFiles/formPages.css"
+-'  150  0  ~/static/cssFiles/formPages.css
+|4,39,150,0,1721912077,"~/static/cssFiles/formPages.css"
+-'  156  0  ~/static/cssFiles/formPages.css
+|4,39,156,0,1721912077,"~/static/cssFiles/formPages.css"
+-'  153  0  ~/static/cssFiles/formPages.css
+|4,39,153,0,1721912077,"~/static/cssFiles/formPages.css"
 
 # History of marks within files (newest to oldest):
 
-> ~/migrations/__pycache__/env.cpython-38.pyc
-	*	1721892053	0
-	"	1	0
-
-> ~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc
-	*	1721892003	0
-	"	17	57
-
-> ~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc
-	*	1721891971	0
-	"	1	0
-
-> ~/migrations/versions/a680d0cd4a56_changing.py
-	*	1721891840	0
-	"	1	0
-
-> ~/migrations/versions/7bebea553171_.py
-	*	1721891781	0
-	"	18	0
-
-> ~/__pycache__/acc.cpython-38.pyc
-	*	1721891705	0
-	"	1	0
-
-> ~/migrations/script.py.mako
-	*	1721891660	0
-	"	1	0
-
-> ~/migrations/env.py
-	*	1721891642	0
-	"	114	3
-	^	114	0
-	.	1	14
-	+	1	14
-
-> ~/migrations/README
-	*	1721891629	0
-	"	1	0
-
-> ~/migrations/alembic.ini
-	*	1721891612	0
-	"	1	0
-
-> ~/migrations/versions/__pycache__/.cpython-38.pyc
-	*	1721891469	0
-	"	1	0
-
-> ~/migrations/__pycache__/README
-	*	1721891232	0
-	"	1	0
-
-> ~/findBuddy.html
-	*	1721891199	0
-	"	1	0
-
-> ~/.bash_logout
-	*	1721856671	0
-	"	1	0
-
-> ~/.bash_history
-	*	1721856662	0
-	"	1	0
-
-> ~/.gitconfig
-	*	1721856607	0
-	"	1	0
-
-> ~/.gitignore
-	*	1721856529	0
-	"	1	25
-	^	1	26
-	.	1	25
-	+	1	25
-
-> ~/Advanced-Web-Technologies
-	*	1721856454	0
-	"	1	0
-
-> ~/kp
-	*	1721856197	0
-	"	1	0
-
 > ~/acc.py
-	*	1721855997	0
-	"	347	0
-	^	347	0
-	.	331	302
-	+	93	0
-	+	94	0
+	*	1721913510	0
+	"	57	6
+	^	57	7
+	.	21	50
 	+	72	0
 	+	58	0
 	+	70	56
@@ -544,6 +460,324 @@ $
 	+	217	0
 	+	282	10
 	+	331	302
+	+	20	7
+	+	21	50
+
+> ~/templates/htmlTemplates/findBuddy.html
+	*	1721912855	0
+	"	18	3
+	^	18	4
+	.	19	0
+	+	8	20
+	+	2	0
+	+	3	4
+	+	4	4
+	+	5	0
+	+	6	0
+	+	3	5
+	+	4	5
+	+	60	0
+	+	4	100
+	+	36	0
+	+	60	0
+	+	59	0
+	+	56	63
+	+	4	85
+	+	11	25
+	+	12	0
+	+	4	100
+	+	21	7
+	+	23	48
+	+	13	25
+	+	19	9
+	+	28	30
+	+	31	168
+	+	19	0
+
+> ~/templates/htmlTemplates/navigationBar.html
+	*	1721912219	0
+	"	24	16
+	^	24	17
+	.	24	16
+	+	1	6
+	+	4	0
+	+	31	0
+	+	33	0
+	+	32	0
+	+	33	0
+	+	27	0
+	+	23	3
+	+	25	3
+	+	26	3
+	+	17	3
+	+	39	3
+	+	47	3
+	+	48	3
+	+	49	4
+	+	50	4
+	+	51	23
+	+	52	0
+	+	58	4
+	+	59	36
+	+	60	0
+	+	67	4
+	+	68	4
+	+	69	4
+	+	70	0
+	+	60	0
+	+	110	0
+	+	111	0
+	+	116	0
+	+	122	0
+	+	123	0
+	+	110	0
+	+	112	90
+	+	121	11
+	+	119	44
+	+	2	0
+	+	2	6
+	+	3	0
+	+	6	0
+	+	4	7
+	+	7	0
+	+	15	0
+	+	101	0
+	+	79	0
+	+	78	29
+	+	79	15
+	+	16	1
+	+	19	0
+	+	15	0
+	+	16	0
+	+	15	77
+	+	102	12
+	+	99	58
+	+	102	12
+	+	100	10
+	+	90	17
+	+	90	15
+	+	90	17
+	+	91	0
+	+	91	16
+	+	89	3
+	+	87	112
+	+	91	16
+	+	92	22
+	+	95	0
+	+	93	15
+	+	92	35
+	+	93	13
+	+	92	37
+	+	93	15
+	+	87	103
+	+	92	38
+	+	93	8
+	+	92	23
+	+	93	16
+	+	94	14
+	+	87	42
+	+	114	0
+	+	24	16
+
+> ~/static/cssFiles/formPages.css
+	*	1721912184	0
+	"	21	0
+	^	21	0
+	.	22	0
+	+	136	2
+	+	137	2
+	+	144	2
+	+	145	0
+	+	4	0
+	+	1	0
+	+	1	87
+	+	3	0
+	+	18	29
+	+	21	17
+	+	41	0
+	+	48	0
+	+	56	0
+	+	64	0
+	+	21	17
+	+	18	30
+	+	18	108
+	+	132	41
+	+	133	0
+	+	112	0
+	+	93	0
+	+	108	4
+	+	98	85
+	+	102	16
+	+	101	29
+	+	105	23
+	+	110	1
+	+	105	22
+	+	110	0
+	+	101	28
+	+	110	33
+	+	103	3
+	+	111	0
+	+	104	2
+	+	104	24
+	+	105	0
+	+	103	0
+	+	105	23
+	+	107	24
+	+	106	21
+	+	108	0
+	+	132	0
+	+	130	0
+	+	115	205
+	+	115	187
+	+	115	202
+	+	114	17
+	+	101	0
+	+	115	206
+	+	115	166
+	+	115	3
+	+	115	0
+	+	130	0
+	+	115	211
+	+	36	0
+	+	132	1
+	+	132	42
+	+	115	201
+	+	115	230
+	+	115	206
+	+	115	230
+	+	115	34
+	+	115	166
+	+	115	95
+	+	115	166
+	+	115	95
+	+	115	165
+	+	115	4
+	+	115	165
+	+	115	168
+	+	115	191
+	+	115	213
+	+	115	105
+	+	115	104
+	+	128	1
+	+	130	0
+	+	115	4
+	+	122	23
+	+	121	21
+	+	118	32
+	+	103	32
+	+	114	12
+	+	125	63
+	+	125	16
+	+	128	0
+	+	127	22
+	+	113	71
+	+	125	0
+	+	124	21
+	+	123	17
+	+	124	20
+	+	123	17
+	+	121	18
+	+	133	0
+	+	18	29
+	+	2	1
+	+	21	211
+	+	18	46
+	+	18	27
+	+	22	0
+
+> ~/static/formPages.css
+	*	1721912063	0
+	"	1	0
+
+> ~/migrations/alembic.ini
+	*	1721908934	0
+	"	52	0
+	^	52	0
+	.	52	0
+	+	51	0
+	+	52	0
+
+> ~/migrations/vim
+	*	1721897220	0
+	"	1	0
+
+> ~/migrations/env.py
+	*	1721897189	0
+	"	3	2
+	^	3	3
+	.	1	14
+	+	1	14
+
+> ~/migrations/__pycache__/env.cpython-38.pyc
+	*	1721892053	0
+	"	1	0
+
+> ~/migrations/versions/__pycache__/a680d0cd4a56_changing.cpython-38.pyc
+	*	1721892003	0
+	"	17	57
+
+> ~/migrations/versions/__pycache__/7bebea553171_.cpython-38.pyc
+	*	1721891971	0
+	"	1	0
+
+> ~/migrations/versions/a680d0cd4a56_changing.py
+	*	1721891840	0
+	"	1	0
+
+> ~/migrations/versions/7bebea553171_.py
+	*	1721891781	0
+	"	18	0
+
+> ~/__pycache__/acc.cpython-38.pyc
+	*	1721891705	0
+	"	1	0
+
+> ~/migrations/script.py.mako
+	*	1721891660	0
+	"	1	0
+
+> ~/migrations/README
+	*	1721891629	0
+	"	1	0
+
+> ~/migrations/versions/__pycache__/.cpython-38.pyc
+	*	1721891469	0
+	"	1	0
+
+> ~/migrations/__pycache__/README
+	*	1721891232	0
+	"	1	0
+
+> ~/findBuddy.html
+	*	1721891199	0
+	"	1	0
+
+> ~/.bash_logout
+	*	1721856671	0
+	"	1	0
+
+> ~/.bash_history
+	*	1721856662	0
+	"	1	0
+
+> ~/.gitconfig
+	*	1721856607	0
+	"	1	0
+
+> ~/.gitignore
+	*	1721856529	0
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	25
+
+> ~/Advanced-Web-Technologies
+	*	1721856454	0
+	"	1	0
+
+> ~/kp
+	*	1721856197	0
+	"	1	0
 
 > ~/static/jsFiles/homepage.js
 	*	1721855526	0
@@ -678,112 +912,6 @@ $
 	+	6	3
 	+	9	255
 
-> ~/static/cssFiles/formPages.css
-	*	1721855224	0
-	"	157	0
-	^	157	0
-	.	28	194
-	+	139	40
-	+	139	10
-	+	139	2
-	+	143	2
-	+	144	2
-	+	151	2
-	+	152	0
-	+	4	0
-	+	1	0
-	+	1	87
-	+	3	0
-	+	21	0
-	+	28	0
-	+	48	0
-	+	55	0
-	+	63	0
-	+	71	0
-	+	28	0
-	+	21	1
-	+	21	79
-	+	139	41
-	+	140	0
-	+	119	0
-	+	100	0
-	+	115	4
-	+	105	85
-	+	109	16
-	+	108	29
-	+	112	23
-	+	117	1
-	+	112	22
-	+	117	0
-	+	108	28
-	+	117	33
-	+	110	3
-	+	118	0
-	+	111	2
-	+	111	24
-	+	112	0
-	+	110	0
-	+	112	23
-	+	114	24
-	+	113	21
-	+	115	0
-	+	139	0
-	+	137	0
-	+	122	205
-	+	122	187
-	+	122	202
-	+	121	17
-	+	108	0
-	+	122	206
-	+	122	166
-	+	122	3
-	+	122	0
-	+	137	0
-	+	122	211
-	+	43	0
-	+	139	1
-	+	139	42
-	+	122	201
-	+	122	230
-	+	122	206
-	+	122	230
-	+	122	34
-	+	122	166
-	+	122	95
-	+	122	166
-	+	122	95
-	+	122	165
-	+	122	4
-	+	122	165
-	+	122	168
-	+	122	191
-	+	122	213
-	+	122	105
-	+	122	104
-	+	135	1
-	+	137	0
-	+	122	4
-	+	129	23
-	+	128	21
-	+	125	32
-	+	110	32
-	+	121	12
-	+	132	63
-	+	132	16
-	+	135	0
-	+	134	22
-	+	120	71
-	+	132	0
-	+	131	21
-	+	130	17
-	+	131	20
-	+	130	17
-	+	128	18
-	+	140	0
-	+	21	0
-	+	2	1
-	+	28	194
-
 > ~/static/cssFiles/findBuddy.css
 	*	1721855033	0
 	"	30	0
@@ -799,90 +927,6 @@ $
 	+	26	0
 	+	19	1
 	+	24	1
-
-> ~/templates/htmlTemplates/navigationBar.html
-	*	1721855003	0
-	"	123	6
-	^	123	7
-	.	113	0
-	+	1	6
-	+	4	0
-	+	30	0
-	+	32	0
-	+	31	0
-	+	32	0
-	+	26	0
-	+	23	3
-	+	24	3
-	+	25	3
-	+	17	3
-	+	38	3
-	+	46	3
-	+	47	3
-	+	48	4
-	+	49	4
-	+	50	23
-	+	51	0
-	+	57	4
-	+	58	36
-	+	59	0
-	+	66	4
-	+	67	4
-	+	68	4
-	+	69	0
-	+	59	0
-	+	109	0
-	+	110	0
-	+	115	0
-	+	121	0
-	+	122	0
-	+	109	0
-	+	111	90
-	+	120	11
-	+	118	44
-	+	2	0
-	+	2	6
-	+	3	0
-	+	6	0
-	+	4	7
-	+	7	0
-	+	15	0
-	+	100	0
-	+	78	0
-	+	77	29
-	+	78	15
-	+	16	1
-	+	19	0
-	+	15	0
-	+	16	0
-	+	15	77
-	+	101	12
-	+	98	58
-	+	101	12
-	+	99	10
-	+	89	17
-	+	89	15
-	+	89	17
-	+	90	0
-	+	90	16
-	+	88	3
-	+	86	112
-	+	90	16
-	+	91	22
-	+	94	0
-	+	92	15
-	+	91	35
-	+	92	13
-	+	91	37
-	+	92	15
-	+	86	103
-	+	91	38
-	+	92	8
-	+	91	23
-	+	92	16
-	+	93	14
-	+	86	42
-	+	113	0
 
 > ~/templates/htmlTemplates/homepage.html
 	*	1721854923	0
@@ -902,36 +946,6 @@ $
 	+	2	0
 	+	3	1
 	+	4	81
-
-> ~/templates/htmlTemplates/findBuddy.html
-	*	1721854909	0
-	"	32	167
-	^	32	168
-	.	32	168
-	+	8	20
-	+	2	0
-	+	3	4
-	+	4	4
-	+	5	0
-	+	6	0
-	+	3	5
-	+	4	5
-	+	61	0
-	+	4	100
-	+	37	0
-	+	61	0
-	+	60	0
-	+	57	63
-	+	4	85
-	+	11	25
-	+	12	0
-	+	4	100
-	+	22	7
-	+	24	48
-	+	13	25
-	+	20	9
-	+	29	30
-	+	32	168
 
 > ~/templates/htmlTemplates/createCard.html
 	*	1721854834	0
@@ -1094,10 +1108,6 @@ $
 	*	1721165329	0
 	"	1	0
 	^	1	0
-
-> ~/static/formPages.css
-	*	1721162207	0
-	"	1	0
 
 > ~/login.html
 	*	1721159741	0
@@ -2657,14 +2667,3 @@ $
 > ~/acc,py
 	*	1720444650	0
 	"	1	0
-
-> ~/studyWebsite/app.py
-	*	1720098444	0
-	"	21	38
-	^	21	39
-	.	21	38
-	+	22	0
-	+	6	27
-	+	8	0
-	+	10	38
-	+	21	38

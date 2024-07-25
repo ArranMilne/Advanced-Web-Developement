@@ -17,7 +17,7 @@ from flask_migrate import Migrate
 #Creating the flask application instance and naming it 'app'.
 app = Flask(__name__)
 
-#setting where the database is located. 
+#telling where the database is located. 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///studyBuddy.db'
 #The 'secret key' is used with a session for security.
 app.secret_key = 'aaa'  
